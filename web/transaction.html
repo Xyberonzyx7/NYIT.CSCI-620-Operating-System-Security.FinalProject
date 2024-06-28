@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction History</title>
+    <style>
+		.transaction {
+			background-color: #2f3947;
+			height: 60px;
+			width: 100%;
+			border: 0;
+		}
+		.transaction div {
+			display: flex;
+			margin: 0 auto;
+			width: 1000px;
+			height: 100%;
+			/* display: inline-flex; */
+			align-items: center;
+		}
+		.transaction div h1 {
+			flex: 1;
+			font-size: 24px;
+			padding: 0;
+			margin: 0;
+			color: #eaebed;
+			font-weight: normal;
+		}
+		.content {
+			width: 1000px;
+			margin: 0 auto;
+		}
+		.content h2 {
+			margin: 0;
+			padding: 25px 0;
+			font-size: 22px;
+			border-bottom: 1px solid #e0e0e3;
+			color: #4a536e;
+		}
+		.content > p, .content > div {
+			box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+			margin: 25px 0;
+			padding: 25px;
+			background-color: #fff;
+		}
+		.content > p table td, .content > div table td {
+			padding: 5px;
+		}
+		.content > p table td:first-child, .content > div table td:first-child {
+			font-weight: bold;
+			color: #4a536e;
+			padding-right: 15px;
+		}
+		.content > div p {
+			padding: 5px;
+			margin: 0 0 10px 0;
+		}
+		* {
+  			box-sizing: border-box;
+  			font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+  			font-size: 16px;
+		}
+		body.loggedin {
+			background-color: #f3f4f7;
+		}
+	</style>
+	<!-- <link href="style.css" rel="stylesheet" type="text/css"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body class="loggedin">
+	<div class="transaction">
+		<div>
+			<h1>Transaction History</h1>
+		</div>
+	</div>
+	<div class="content">
+		<h2>Profile Page</h2>
+		<div>
+			<!-- <p>Your account details are below:</p> -->
+			<table>
+				<tr>
+					<td>Username:</td>
+					<td>John Smith</td>
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td>123 Maple Street, Vancouver, BC V6H 1T2, Canada</td>
+				</tr>
+				<tr>
+					<td>Item:</td>
+					<td>Classic Coffee</td>
+				</tr>
+				<tr>
+					<td>Credit Card:</td>
+					<td>4539 1488 0343 6467</td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<table>
+				<tr>
+					<td>Username:</td>
+					<td>John Smith</td>
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td>123 Maple Street, Vancouver, BC V6H 1T2, Canada</td>
+				</tr>
+				<tr>
+					<td>Item:</td>
+					<td>Classic Coffee</td>
+				</tr>
+				<tr>
+					<td>Credit Card:</td>
+					<td>4539 1488 0343 6467</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
