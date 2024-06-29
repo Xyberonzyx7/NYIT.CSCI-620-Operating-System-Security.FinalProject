@@ -20,22 +20,22 @@ $result = mysqli_query($conn, $sql);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transaction History</title>
+    <title>Order History</title>
     <style>
-        .transaction {
-            background-color: #2f3947;
+        .order {
+            background-color: #d63232;
             height: 60px;
             width: 100%;
             border: 0;
         }
-        .transaction div {
+        .order div {
             display: flex;
             margin: 0 auto;
             width: 1000px;
             height: 100%;
             align-items: center;
         }
-        .transaction div h1 {
+        .order div h1 {
             flex: 1;
             font-size: 24px;
             padding: 0;
@@ -52,7 +52,7 @@ $result = mysqli_query($conn, $sql);
             padding: 25px 0;
             font-size: 22px;
             border-bottom: 1px solid #e0e0e3;
-            color: #4a536e;
+            color: #654343;
         }
         .content > div {
             box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
@@ -72,7 +72,7 @@ $result = mysqli_query($conn, $sql);
         }
         .content table td:first-child, .content table th:first-child {
             font-weight: bold;
-            color: #4a536e;
+            color: #654343;
         }
         * {
             box-sizing: border-box;
@@ -85,13 +85,13 @@ $result = mysqli_query($conn, $sql);
     </style>
 </head>
 <body class="loggedin">
-    <div class="transaction">
+    <div class="order">
         <div>
-            <h1>Transaction History</h1>
+            <h1>Order History</h1>
         </div>
     </div>
     <div class="content">
-        <h2>Profile Page</h2>
+        <h2>Transaction</h2>
         <?php
         if (mysqli_num_rows($result) > 0) {
             // Output data of each row
