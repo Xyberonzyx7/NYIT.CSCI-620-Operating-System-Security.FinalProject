@@ -50,29 +50,49 @@
 		<h1>Queen's Cafe</h1>
 	</div>
     <div class="item">
-        <h2>Classic Coffee</h2>
-        <p>Price: $3.00</p>
-        <button class="checkout-button">Checkout</button>
+		<form action="checkout.php" method="post">
+			<input type="hidden" name="item" value="Classic Coffee">
+			<input type="hidden" name="price" value="3.00">
+			<h2>Classic Coffee</h2>
+			<p>Price: $3.00</p>
+			<button class="checkout-button" type="submit">Checkout</button>
+		</form>
     </div>
     <div class="item">
-        <h2>Signature Latte</h2>
-        <p>Price: $4.50</p>
-        <button class="checkout-button">Checkout</button>
+		<form action="checkout.php" method="post">
+			<input type="hidden" name="item" value="Signature Latte">
+			<input type="hidden" name="price" value="4.50">
+			<h2>Signature Latte</h2>
+			<p>Price: $4.50</p>
+			<button class="checkout-button">Checkout</button>
+		</form>
     </div>
     <div class="item">
-        <h2>Fresh Croissant</h2>
-        <p>Price: $2.50</p>
-        <button class="checkout-button">Checkout</button>
+		<form action="checkout.php" method="post">
+			<input type="hidden" name="item" value="Fresh Croissant">
+			<input type="hidden" name="price" value="2.50">
+			<h2>Fresh Croissant</h2>
+			<p>Price: $2.50</p>
+			<button class="checkout-button">Checkout</button>
+		</form>
     </div>
     <div class="item">
-        <h2>Queen's Tea</h2>
-        <p>Price: $3.5</p>
-        <button class="checkout-button">Checkout</button>
+		<form action="checkout.php" method="post">
+			<input type="hidden" name="item" value="Queen's Tea">
+			<input type="hidden" name="price" value="3.50">
+			<h2>Queen's Tea</h2>
+			<p>Price: $3.5</p>
+			<button class="checkout-button">Checkout</button>
+		</form>
     </div>
     <div class="item">
-        <h2>Homemade Cake</h2>
-        <p>Price: $4.00</p>
-        <button class="checkout-button">Checkout</button>
+		<form action="checkout.php" method="post">
+			<input type="hidden" name="item" value="Homemade Cake">
+			<input type="hidden" name="price" value="4.00">
+			<h2>Homemade Cake</h2>
+			<p>Price: $4.00</p>
+			<button class="checkout-button">Checkout</button>
+		</form>
     </div>
 </body>
 </html>
