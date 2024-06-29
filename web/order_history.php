@@ -102,7 +102,7 @@ $result = mysqli_query($conn, $sql);
                 echo '<tr><td>Address:</td><td>' . htmlspecialchars($row["address"]) . '</td></tr>';
                 echo '<tr><td>Item:</td><td>' . htmlspecialchars($row["item"]) . '</td></tr>';
                 echo '<tr><td>Price:</td><td>$' . htmlspecialchars($row["price"]) . '</td></tr>';
-                echo '<tr><td>Credit Card:</td><td>' . htmlspecialchars($row["card"]) . '</td></tr>';
+                echo '<tr><td>Credit Card:</td><td>' . "**** **** **** ****" . '</td></tr>';
                 echo '</table>';
                 echo '</div>';
             }
