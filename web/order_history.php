@@ -1,4 +1,14 @@
 <?php
+session_start();
+
+// Access Control
+if (!isset($_SESSION['loggedin'])) {
+    header('Refresh: 10; URL=admin_login.html');
+    echo 'Please login as an admin to view this page. Redirect in 10 seconds...';
+    exit;
+}
+
+// Connect to the database
 $servername = 'localhost';
 $username = 'root';
 $password = '';
@@ -94,7 +104,6 @@ $result = mysqli_query($conn, $sql);
         <h2>Transaction</h2>
         <?php
         if (mysqli_num_rows($result) > 0) {
-            // Output data of each row
             while($row = mysqli_fetch_assoc($result)) {
                 echo '<div>';
                 echo '<table>';
@@ -109,7 +118,7 @@ $result = mysqli_query($conn, $sql);
         } else {
             echo '<p>No transaction history found.</p>';
         }
-        mysqli_close($conn); // Close the database connection
+        mysqli_close($conn);
         ?>
     </div>
 </body>
