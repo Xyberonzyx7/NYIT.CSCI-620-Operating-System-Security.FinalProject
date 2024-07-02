@@ -49,7 +49,7 @@ Complete the following steps.
 	- `<repo>/attack/forced_browsing_payload2.txt`
 - Finish Condition:
   - BurpSuite should show this result   
-  <img src="github_src/forced_browsing.png" alt="shop" style="he.g.,t:250; width:530px;"> 
+    <img src="github_src/forced_browsing.png" alt="shop" style="he.g.,t:250; width:530px;"> 
 
 ### Find Credit Card Information
 - Hint:
