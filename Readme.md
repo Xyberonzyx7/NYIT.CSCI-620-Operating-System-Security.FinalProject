@@ -7,8 +7,6 @@ Our sincere gratitude to the following resources, without which the creation of 
 # Purpose
 This is a vulnerable website named **Queen's Cafe**, designed as a web exploit target by the OSS course "Team LuckyQueen". The website is intentionally vulnerable to Forced Browsing, Brute Force, and SQL Injection attacks.
 
-Please note that we won't be able to create this repository without the knowledge from these websites:
-
 When this website is hosted, users can only view these pages:
 
 | shop | checkout | process_order |
