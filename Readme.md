@@ -1,5 +1,13 @@
+# Acknowledgments
+Our sincere gratitude to the following resources, without which the creation of this repository for `Queen's Cafe` would not have been possible:
+1. [Secure Login System with PHP and MySQL](https://codeshack.io/secure-login-system-php-mysql/)
+2. [phpMyAdmin Tutorial and MySQL Tutorial Course](https://www.youtube.com/watch?v=j1WVRtcauqw&list=PLk-EmIiBIYGF8WCitdIVq7dvvacqY0rdl&index=4&ab_channel=NickFrostbutter)
+3. [How to install XAMPP on Windows?](https://www.geeksforgeeks.org/how-to-install-xampp-on-windows/)
+
 # Purpose
 This is a vulnerable website named **Queen's Cafe**, designed as a web exploit target by the OSS course "Team LuckyQueen". The website is intentionally vulnerable to Forced Browsing, Brute Force, and SQL Injection attacks.
+
+Please note that we won't be able to create this repository without the knowledge from these websites:
 
 When this website is hosted, users can only view these pages:
 
@@ -64,8 +72,3 @@ Complete the following steps.
 - Finish Condition:
   - Find the page that reveals all customer's credit card information   
     <img src="github_src/admin_order_management.png" alt="shop" style="he.g.,t:250; width:530px;"> 
-
-# Reference
-1. [Secure Login System with PHP and MySQL](https://codeshack.io/secure-login-system-php-mysql/)
-2. [phpMyAdmin Tutorial and MySQL Tutorial Course](https://www.youtube.com/watch?v=j1WVRtcauqw&list=PLk-EmIiBIYGF8WCitdIVq7dvvacqY0rdl&index=4&ab_channel=NickFrostbutter)
-3. [How to install XAMPP on Windows?](https://www.geeksforgeeks.org/how-to-install-xampp-on-windows/)
