@@ -1,5 +1,5 @@
 # Acknowledgments
-Our sincere gratitude to the following resources, without which the creation of this repository for `Queen's Cafe` would not have been possible:
+Our sincere gratitude to the following resources, without which the creation of this repository for **Queen's Cafe** would not have been possible:
 1. [Secure Login System with PHP and MySQL](https://codeshack.io/secure-login-system-php-mysql/)
 2. [phpMyAdmin Tutorial and MySQL Tutorial Course](https://www.youtube.com/watch?v=j1WVRtcauqw&list=PLk-EmIiBIYGF8WCitdIVq7dvvacqY0rdl&index=4&ab_channel=NickFrostbutter)
 3. [How to install XAMPP on Windows?](https://www.geeksforgeeks.org/how-to-install-xampp-on-windows/)
