@@ -1,12 +1,12 @@
 <?php
 session_start();
 
-// Access Control
-if (!isset($_SESSION['loggedin'])) {
-    header('Refresh: 10; URL=admin_login.html');
-    echo 'Please login as an admin to view this page. Redirect in 10 seconds...';
-    exit;
-}
+// // Access Control
+// if (!isset($_SESSION['loggedin'])) {
+//     header('Refresh: 10; URL=admin_login.html');
+//     echo 'Please login as an admin to view this page. Redirect in 10 seconds...';
+//     exit;
+// }
 
 // Connect to the database
 $servername = 'localhost';
